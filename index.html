@@ -1,172 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="FTpage.css">
-</head>
-<body>
-    <body>
-        <header class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newdity</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <header class="navbar">
+          <!-- Logo -->
+          <a href="#" class="navbar-logo">Newdity<span>.</span></a>
 
-            <div class="topnav">
-                <div class="navTabs"></div>
-                    <div class="navTabsImage">
-                       <img src="https://img.icons8.com/android/24/FFFFFF/menu.png" alt="Hamburger">
-                    </div>
-                </div>
+          <!-- Navigation Links -->
+          <nav class="navbar-links">
+            <a href="#">New Arrivals</a>
+            <a href="#">Shop By</a>
+            <a href="#">Dresses</a>
+            <a href="#">Clothing</a>
+            <a href="#">Accessories</a>
+          </nav>
 
-                <a class="active" href="#home">Home</a>
-                <a href="#about">About us</a>
-                <a href="#services"> Services</a>
-                <a href="#Blog">Blog</a>
-                <a href="#contact">Contact</a>
-                <input type="text" placeholder="Search..">
-            </div>
-        
-            <div class="navTabs"></div>
-                <div class="navTabsImage">
-                    <img src="https://img.icons8.com/android/24/FFFFFF/menu.png" alt="Hamburger">
-                </div>
-            </div>
-        
-            <br>
-
-            <div class="header-content">
-                <h2>WELCOME TO BULKING BEAST</h2>
-                <p>Challenge Yourself! <br> We Are Ready! <br> Are You?</p>
+          <!-- Icons and Search -->
+          <div class="navbar-icons">
+            <!-- Search Bar -->
+            <div class="search-container">
+              <input type="text" placeholder="Search" />
+              <span class="search-icon"
+                ><img src="./assets/bx-search.svg" alt="search"
+              /></span>
             </div>
 
+            <!-- Account Icon -->
+            <img src="./assets/bx-user.svg" alt="user" />
+
+            <!-- Cart Icon -->
+            <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+          </div>
         </header>
-        
-               
-        
-       <div class="About us">
-        <section class="about us">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>Welcome to Bulking Beasts! We are dedicated to helping you achieve your fitness goals and live a healthy lifestyle. Our mission is to provide you with valuable workout routines, fitness tips, and expert guidance to support you on your fitness journey.</p> <br> <p> The idea of pushing you to your limits, building strength, confidence, and discipline. We do this by reinforcing positive lifestyle adaptations like a good nutrition plan, a challenging workout regime, and constant guidance and accountability. With following your Fitness Challenge, you will rediscover your relationship with your mental and physical health! After all, to transform, you must challenge yourself!</p>
+      </section>
+
+      <section class="hero-section">
+        <div>
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+      </section>
+
+      <section>
+        <h2>Shop By Categories</h2>
+        <div class="categories-container">
+          <div class="category">
+            <img src="tops.jpg" alt="Tops" />
+            <div class="category-name">Tops</div>
+          </div>
+          <div class="category">
+            <img src="jumpsuits.jpg" alt="Jumpsuits" />
+            <div class="category-name">Jumpsuits</div>
+          </div>
+          <div class="category">
+            <img src="dresses.jpg" alt="Dresses" />
+            <div class="category-name">Dresses</div>
+          </div>
+          <div class="category">
+            <img src="flats_heels.jpg" alt="Flats & Heels" />
+            <div class="category-name">Flats & Heels</div>
+          </div>
+          <div class="category">
+            <img src="handbags.jpg" alt="Handbags" />
+            <div class="category-name">Handbags</div>
+          </div>
+          <div class="category">
+            <img src="shorts.jpg" alt="Shorts" />
+            <div class="category-name">Shorts</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="editor-pick-container">
+        <div class="editor-pick-header">
+          <h2>Editor's Pick</h2>
+          <hr />
+          <div class="tabs">
+            <button>Featured</button>
+            <button>On Sale</button>
+            <button>Top Rated</button>
+          </div>
+        </div>
+        <div class="dresses-container">
+          <div class="dress">
+            <img src="dress1.jpg" alt="Dress 1" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
             </div>
-            <button class="button" style="background-color: orangered; border-radius: 8pxs;">Challenge Yourself</button>
-        </section>
-       </div>
-        
-        <section class="workouts">
-            <h2>Workout Routines</h2>
-            <table>
-                <tr>
-                    <th>Workout</th>
-                    <th>Description</th>
-                    <th>Image</th>
-                </tr>
-                <tr>
-                    <td>Push-ups</td>
-                    <td>A classic exercise that targets the chest, arms, and core.</td>
-                    <td><img src="https://cdn-icons-png.flaticon.com/512/2548/2548530.png" alt="Push-ups"></td>
-                </tr>
-                <tr>
-                    <td>Squats</td>
-                    <td>A lower body exercise that targets the legs and glutes.</td>
-                    <td><img src="https://cdn-icons-png.flaticon.com/512/3043/3043290.png" alt="Squats"></td>
-                </tr>
-                <tr>
-                    <td>Plank</td>
-                    <td>A core exercise that helps strengthen the abs and back.</td>
-                    <td><img src="https://cdn-icons-png.flaticon.com/512/2647/2647657.png" alt="Plank"></td>
-                </tr>
-            </table>
-        </section>
-        
-        <section class="tips">
-            <h2>Fitness Tips</h2>
-            <ul>
-                <li>Stay hydrated during workouts.</li>
-                <li>Warm up to prevent injuries.</li>
-                <li>Listen to your body and rest when needed.</li>
-                <li>Incorporate strength training exercises.</li>
-                <li>Focus on flexibility with stretching exercises.</li>
-                <li>Eat a balanced diet for fuel and nutrition.</li>
-                <li>Set realistic goals and track your progress.</li>
-            </ul>
-            <button class="pulse">Sign Up for Our Newsletter</button>
-        </section>
-        
-        <section id="equipment">
-            <h2>Fitness Equipment</h2>
-            <div class="container2">
-                <div class="equipment-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1053/1053916.png" alt="Dumbbells">
-                    <h3>Dumbbells</h3>
-                    <p>Dumbbells are versatile strength training tools that can be used for a wide range of exercises targeting various muscle groups.</p>
-                </div>
-                <div class="equipment-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2447/2447530.png" alt="Resistance Bands">
-                    <h3>Resistance Bands</h3>
-                    <p>Resistance bands provide a convenient and portable way to add resistance to your workouts, helping to build strength and improve flexibility.</p>
-                </div>
-                <div class="equipment-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/120/120479.png" alt="Exercise Ball">
-                    <h3>Exercise Ball</h3>
-                    <p>An exercise ball is a versatile tool that can be used for core exercises, stability training, and improving balance.</p>
-                </div>
+            <div class="dress-name">Meta Sleeveless Dress</div>
+            <div class="dress-price">$150</div>
+          </div>
+          <div class="dress">
+            <img src="dress2.jpg" alt="Dress 2" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
             </div>
+            <div class="dress-name">Meta Sleeveless Dress</div>
+            <div class="dress-price">$150</div>
+          </div>
+          <div class="dress">
+            <img src="dress3.jpg" alt="Dress 3" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <div class="dress-name">Meta Sleeveless Dress</div>
+            <div class="dress-price">$150</div>
+          </div>
+          <div class="dress">
+            <img src="dress4.jpg" alt="Dress 4" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <div class="dress-name">Meta Sleeveless Dress</div>
+            <div class="dress-price">$150</div>
+          </div>
+          <!-- <div class="dress">
+            <img src="dress5.jpg" alt="Dress 5" />
+            <div class="title">
+                <p>Women's Fashion</p>
+                <div>
+                  <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                  <img src="./assets/bx-heart.svg" alt="like" />
+                </div>
+              </div>
+            <div class="dress-name">Meta Sleeveless Dress</div>
+            <div class="dress-price">$150</div>
+          </div> -->
+        </div>
+      </section>
+
+      <section>
+        <div class="overlay-container">
+          <div class="item men">
+            <img src="men-fashion.jpg" alt="Men's Fashion" />
+            <div class="text-overlay">
+              <p>+Flat 45% sale on pre-order</p>
+              <h2>Seasonable Clothes</h2>
+              <a href="#" class="shop-link">SHOP FOR HIM</a>
+            </div>
+          </div>
+          <div class="item women">
+            <img src="women-fashion.jpg" alt="Women's Fashion" />
+            <div class="text-overlay">
+              <p>+Flat 45% sale on pre-order</p>
+              <h2>Fashionable Wear</h2>
+              <a href="#" class="shop-link">SHOP FOR HER</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="NewArrivals">
+        <div class="promo-banner">
+          <h2>New Arrivals</h2>
+          <hr />
+          <div class="counter">
+            <p>Best Deal:</p>
+            <span>00h: 00m: 00s</span>
+          </div>
+        </div>
+
+        <section class="products-grid">
+          <div class="product-card">
+            <img src="product1.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <h4>Meta Slevless Dress</h4>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
+
+          <div class="product-card">
+            <img src="product2.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <h4>Meta Slevless Dress</h4>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
+          <div class="product-card">
+            <img src="product3.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <h4>Meta Slevless Dress</h4>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
+          <div class="product-card">
+            <img src="product4.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <h4>Meta Slevless Dress</h4>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
+          <div class="product-card">
+            <img src="product5.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <h4>Meta Slevless Dress</h4>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
+          <div class="product-card">
+            <img src="product6.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <h4>Meta Slevless Dress</h4>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
+          <div class="product-card">
+            <img src="product7.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <h4>Meta Slevless Dress</h4>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
+          <div class="product-card">
+            <img src="product8.jpg" alt="Women's Fashion" />
+            <div class="title">
+              <p>Women's Fashion</p>
+              <div>
+                <img src="./assets/bx-shopping-bag.svg" alt="bag" />
+                <img src="./assets/bx-heart.svg" alt="like" />
+              </div>
+            </div>
+            <p class="original-price">$250</p>
+            <p class="price">$150</p>
+            <p>upto 50% off</p>
+          </div>
         </section>
-        
-        <section class="meal-p">
-            <h2>Suggested Meal Plans</h2>
-            <div class="meal-goal">    
-                <h3>By Goal</h3>
-                    <div class="item-container">
-                        <div class="item item-first">Lose Weight</div>
-                        <div class="item item-second">Get Healthy</div>
-                        <div class="item item-third">Stay Fit</div>
-                    </div>
+      </section>
+
+      <section class="collection-container">
+        <div class="overlay-container">
+          <div class="item woman">
+            <img src="men-fashion.jpg" alt="Hot Sale Collection" />
+            <div class="text-overlay">
+              <p>upto 75% off</p>
+              <h2>
+                Hot Sale <br />
+                Collection
+              </h2>
+              <a href="#" class="shop-link">SHOP NOW-</a>
             </div>
-            <br/>
-            <div class="meal-goal">
-                <h3>By Food Type</h3>
-                <div class="item-container2">
-                    <div class="item item-one">Vegan Meal</div>
-                    <div class="item item-two">Low Carb Meal</div>
-                    <div class="item item-three">Keto Meal</div>
-                    <div class="item item-four">Pure Veg</div>
-                </div>
+          </div>
+          <div class="item women2">
+            <img src="women-fashion.jpg" alt="Women's Fashion" />
+            <div class="text-overlay">
+              <p>upto 75% off</p>
+              <h2>Winter Collection</h2>
+              <a href="#" class="shop-link">SHOP NOW-</a>
             </div>
-            <br/>
-            <div class="meal-goal">
-                <h3>By Health Focus</h3>
-                <div class="item-container3">
-                    <div class="item item-uno">Heart-Healthy Plan</div>
-                    <div class="item item-dos">Digestive Health Plan</div>
-                    <div class="item item-tres">Bone Health Plan</div>
-                    <div class="item item-cuatro">Brain-Boosting Plan</div>
-                </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="BlogLayout">
+        <div class="Blog-container">
+          <div class="post">
+            <img src="image1.jpg" alt="Fashion 1" />
+            <p>Women / 14 Sep, 2024</p>
+            <h2>Hot Summer Fashion for Women</h2>
+            <a href="#">Read More</a>
+          </div>
+          <div class="post">
+            <img src="image2.jpg" alt="Fashion 2" />
+            <p>Women / 14 Sep, 2024</p>
+            <h2>Hot Summer Fashion for Women</h2>
+            <a href="#">Read More</a>
+          </div>
+          <div class="post">
+            <img src="image3.jpg" alt="Fashion 3" />
+            <p>Women / 14 Sep, 2024</p>
+            <h2>Hot Summer Fashion for Women</h2>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands">
+        <div class="brands">
+          <img src="./assets/GUCCI.jpeg" alt="gucci logo" />
+          <img src="./assets/Levis.jpeg" alt="levis logo" />
+          <img src="./assets/chanel.jpeg" alt="chanel logo" />
+          <img src="./assets/zara.jpeg" alt="zara logo" />
+          <img src="./assets/dior.jpeg" alt="dior logo" />
+          <img src="./assets/H&M.jpeg" alt="H&M logo" />
+        </div>
+      </section>
+
+      <section>
+        <div class="subscription">
+          <div>
+            <h2>
+              Subscribe our <br />
+              Newsletter
+            </h2>
+          </div>
+          <div>
+            <input type="email" placeholder="Enter your email here..." />
+            <button type="submit">Send-</button>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div>
+            <div class="logo">New<span>dity</span></div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
+            <br />
+            <br />
+            <div class="subscribe">
+              <p>Subscribe our Newsletter</p>
+              <form>
+                <input type="email" placeholder="Email" />
+                <button type="submit">Subscribe</button>
+              </form>
             </div>
-        </section>
-        
-        <section id="videos">
-            <h2>Fitness Videos</h2>
-            <div class="container3">
-                <div class="video-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5822/5822441.png" alt="Gymnastics">
-                    <h3>Gymnastics Video</h3>
-                </div>
-                <div class="video-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/7922/7922188.png" alt="Weightlifting">
-                    <h3>Weightlifting Videos</h3>
-                </div>
-                <div class="scroll-container">
-                     <div class="scroll">Follow us on our Socials.
-                    </div>
-                </div>
+          </div>
+
+          <div class="links">
+            <p>Quick Links</p>
+            <p>Help Center</p>
+            <p>Track My Order</p>
+            <p>Shipping</p>
+            <p>Returns & Exchanges</p>
+            <p>Reviews</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>About Us</p>
+            <p>Contact Us</p>
+          </div>
+
+          <div class="contact-follow">
+            <div class="contact">
+              <p>Contact Us</p>
+              <p>
+                <img src="./assets/bxs-map.svg" alt="map" /> Akshya Nagar 1st
+                Block 1st Cross, Bangalore-560016
+              </p>
+              <p>
+                <img src="./assets/bxs-envelope.svg" alt="mail" />
+                sales@newdity.com
+              </p>
             </div>
-        </section>
-        
-        <footer>
-            <p> Copyright © 2024 Designed by Swarnima Agarwal and Developed by <a href="https://www.linkedin.com/in/alsoshubham/"> @Alsoshubham</a>. All rights reserved.</p>
-        </footer>
-        
-        </body>
-</body>
+            <br />
+            <div class="social">
+              <p>Follow Us -</p>
+              <img src="./assets/bxl-twitter.svg" alt="twitter" />
+              <img src="./assets/bxl-facebook.svg" alt="facebook" />
+              <img src="./assets/bxl-youtube.svg" alt="youtube" />
+              <img src="./assets/bxl-linkedin.svg" alt="linkedin" />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>2024-2025 © Newdity.com All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
