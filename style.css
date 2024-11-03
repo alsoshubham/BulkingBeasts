@@ -188,6 +188,7 @@ body {
 /* overlay container */
 .overlay-container {
   display: flex;
+  justify-content: center;
 }
 
 .item {
@@ -276,6 +277,11 @@ body {
 
 
 /* Blog container */
+
+.BlogLayout h1{
+  display: flex;
+  justify-content: center;
+}
 .Blog-container {
   display: flex;
   justify-content: space-around;
