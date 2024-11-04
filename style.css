@@ -409,19 +409,22 @@ body {
   color: #d4a23f;
 }
 
-.footer .subscribe h3 {
+.footer .subscribe p {
   margin-bottom: 10px;
 }
 
 .footer .subscribe form {
   display: flex;
+  background-color: white;
+  width: 300px;
+  height: 40px;
 }
 
 .footer .subscribe input[type="email"] {
   padding: 10px;
   flex: 1;
   margin-right: 10px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 5px 0 0 5px;
 }
 .footer .subscribe button {
